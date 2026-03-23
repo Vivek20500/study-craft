@@ -107,7 +107,7 @@ export default function Dashboard() {
 		>
 			<header className="flex flex-col gap-3">
 				<h1 className="text-4xl font-bold tracking-tight text-text-primary font-serif">
-					Welcome back, {store.studyProfile?.name || 'soob'}
+					Welcome back, {store.studyProfile?.name}
 				</h1>
 				<p className="text-lg text-text-secondary">
 					Here is your learning progress for today. Keep up the great work.
